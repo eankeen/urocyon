@@ -11,7 +11,9 @@
   "bin": {
     "urocyon": "./lib/bin.js"
   },
-  "keywords": ["urocyon"],
+  "keywords": [
+    "urocyon"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eankeen/urocyon.git"
@@ -21,7 +23,9 @@
   },
   "homepage": "https://github.com/eankeen/urocyon#readme",
   "dependencies": {
+    "cross-spawn": "^7.0.0",
     "esm": "^3.2.25",
+    "lodash": "^4.17.15",
     "minimist": "^1.2.0"
   }
 }
