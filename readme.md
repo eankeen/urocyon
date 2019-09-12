@@ -1,5 +1,7 @@
-# Zoinkers
+# Urocyon
 
 ## Introduction
 
-Why Zoikers? The top scaffolding tool Yeoman felt a bit bloated to me, and alternatives did not seem up to date. Zoinkers empowers you to customize your scaffolding workflow as you see fit.
+Named after a [genus of Western Hemisphere foxes](https://en.wikipedia.org/wiki/Urocyon), Urocyon is an intuitive and quick scaffolding system for your apps.
+
+## Usage

@@ -1,22 +1,25 @@
 {
-  "name": "zoinkers",
+  "name": "urocyon",
   "version": "0.1.0",
-  "description": "A scaffolding system so intuitive and quick you'll want to say 'zoinkers'!",
+  "description": "An intuitive and quick scaffolding system",
   "author": "Edwin Kofler",
   "license": "MIT",
   "main": "./lib/index.js",
   "scripts": {
     "dev": "node -r esm ./lib/index.js"
   },
-  "keywords": [],
+  "bin": {
+    "urocyon": "./lib/bin.js"
+  },
+  "keywords": ["urocyon"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eankeen/zoinkers.git"
+    "url": "git+https://github.com/eankeen/urocyon.git"
   },
   "bugs": {
-    "url": "https://github.com/eankeen/zoinkers/issues"
+    "url": "https://github.com/eankeen/urocyon/issues"
   },
-  "homepage": "https://github.com/eankeen/zoinkers#readme",
+  "homepage": "https://github.com/eankeen/urocyon#readme",
   "dependencies": {
     "esm": "^3.2.25",
     "minimist": "^1.2.0"
