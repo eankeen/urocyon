@@ -1,0 +1,18 @@
+dependencies:
+  esm: 3.2.25
+  minimist: 1.2.0
+lockfileVersion: 5.1
+packages:
+  /esm/3.2.25:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
+  /minimist/1.2.0:
+    dev: false
+    resolution:
+      integrity: sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+specifiers:
+  esm: ^3.2.25
+  minimist: ^1.2.0

@@ -1,0 +1,24 @@
+{
+  "name": "zoinkers",
+  "version": "0.1.0",
+  "description": "A scaffolding system so intuitive and quick you'll want to say 'zoinkers'!",
+  "author": "Edwin Kofler",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "node -r esm ./lib/index.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eankeen/zoinkers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eankeen/zoinkers/issues"
+  },
+  "homepage": "https://github.com/eankeen/zoinkers#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "minimist": "^1.2.0"
+  }
+}
