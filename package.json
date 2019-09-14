@@ -1,6 +1,6 @@
 {
   "name": "urocyon",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An intuitive and quick scaffolding system",
   "author": "Edwin Kofler",
   "license": "MIT",
@@ -25,6 +25,7 @@
   "dependencies": {
     "esm": "^3.2.25",
     "minimist": "^1.2.0",
-    "p-map": "^3.0.0"
+    "p-map": "^3.0.0",
+    "prompts": "^2.2.1"
   }
 }

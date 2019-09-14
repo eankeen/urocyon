@@ -2,6 +2,7 @@ dependencies:
   esm: 3.2.25
   minimist: 1.2.0
   p-map: 3.0.0
+  prompts: 2.2.1
 lockfileVersion: 5.1
 packages:
   /aggregate-error/3.0.0:
@@ -31,6 +32,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-Sl/W0nzDMvN+VBmlBNu4NxBckok=
+  /kleur/3.0.3:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
   /minimist/1.2.0:
     dev: false
     resolution:
@@ -43,7 +50,21 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-d3qXVTF/s+W+CdJ5A29wywV2n8CQQYahlgz2bFiA+4eVNJbHJodPZ+/gXwPGh0bOqA+j8S+6+ckmvLGPk1QpxQ==
+  /prompts/2.2.1:
+    dependencies:
+      kleur: 3.0.3
+      sisteransi: 1.0.3
+    dev: false
+    engines:
+      node: '>= 6'
+    resolution:
+      integrity: sha512-VObPvJiWPhpZI6C5m60XOzTfnYg/xc/an+r9VYymj9WJW3B/DIH+REzjpAACPf8brwPeP+7vz3bIim3S+AaMjw==
+  /sisteransi/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-SbEG75TzH8G7eVXFSN5f9EExILKfly7SUvVY5DhhYLvfhKqhDFY0OzevWa/zwak0RLRfWS5AvfMWpd9gJvr5Yg==
 specifiers:
   esm: ^3.2.25
   minimist: ^1.2.0
   p-map: ^3.0.0
+  prompts: ^2.2.1
