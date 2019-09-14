@@ -1,6 +1,6 @@
 {
   "name": "urocyon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An intuitive and quick scaffolding system",
   "author": "Edwin Kofler",
   "license": "MIT",
@@ -23,9 +23,8 @@
   },
   "homepage": "https://github.com/eankeen/urocyon#readme",
   "dependencies": {
-    "cross-spawn": "^7.0.0",
     "esm": "^3.2.25",
-    "lodash": "^4.17.15",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "p-map": "^3.0.0"
   }
 }
