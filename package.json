@@ -24,6 +24,7 @@
   "homepage": "https://github.com/eankeen/urocyon#readme",
   "dependencies": {
     "esm": "^3.2.25",
+    "fs-extra": "^8.1.0",
     "minimist": "^1.2.0",
     "p-map": "^3.0.0",
     "prompts": "^2.2.1"
