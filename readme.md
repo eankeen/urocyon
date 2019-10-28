@@ -52,7 +52,6 @@ remove a recipe book
 urocyon remove main-cookbook
 ```
 
-
 ### urocyon activate
 
 activate a recipe directly
